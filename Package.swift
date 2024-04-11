@@ -265,5 +265,10 @@ extension String {
         static let login = "FBSDKLoginKit"
         static let share = "FBSDKShareKit"
         static let gaming = "FBSDKGamingServicesKit"
+      pod 'FBSDKCoreKit', '~> 8.0.0'
+pod 'FBSDKLoginKit', '~> 8.0.0'
+pod 'FBSDKShareKit', '~> 8.0.0'
+pod 'FBSDKGamingServiceKit', '~> 8.0.0'
+      pod update.
     }
 }
