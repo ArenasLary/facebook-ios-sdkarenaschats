@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:18
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 /*
  * Copyright (c) Meta Platforms, Inc. and affiliates.
@@ -19,7 +19,7 @@ import Darwin.C
 
 let package = Package(
     name: "Facebook",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v18)
     products: [
         // The Kernel of the SDK. Must be included as a runtime dependency.
         .basics,
